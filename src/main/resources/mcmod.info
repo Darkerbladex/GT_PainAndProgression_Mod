@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gt_painandprogression",
+  "name": "GT:Pain&ProgressionMod",
+  "description": "This is my mod for GT:Pain&Progression ModPack    License: MIT License",
+  "version": "${0.0.1}",
+  "mcversion": "${1.12.2}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["DarkerBladeX"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
