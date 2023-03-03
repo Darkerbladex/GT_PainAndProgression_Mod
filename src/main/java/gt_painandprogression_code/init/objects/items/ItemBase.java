@@ -1,14 +1,13 @@
-package init.objects.items;
+package gt_painandprogression_code.init.objects.items;
 
 
-import init.Items;
-import net.minecraft.client.main.Main;
+import gt_painandprogression_code.init.Items;
+import gt_painandprogression_code.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import proxy.ClientProxy;
-import util.IHasModel;
 
 public class ItemBase extends Item implements IHasModel {
+
     public ItemBase(String name) {
         setUnlocalizedName(name);
         setRegistryName(name);
@@ -18,7 +17,8 @@ public class ItemBase extends Item implements IHasModel {
     }
     @Override
     public void registerModels() {
-        Main.proxy.registerItemRenderer(this, 0, "inventory");
+
+
 
     }
 }

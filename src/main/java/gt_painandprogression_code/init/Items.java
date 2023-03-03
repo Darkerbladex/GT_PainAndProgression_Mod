@@ -1,6 +1,6 @@
-package init;
+package gt_painandprogression_code.init;
 
-import init.objects.items.ItemBase;
+import gt_painandprogression_code.init.objects.items.ItemBase;
 import net.minecraft.item.Item;
 
 import java.util.ArrayList;
