@@ -9,16 +9,17 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import gt_painandprogression_code.util.IHasModel;
+import org.jetbrains.annotations.NotNull;
 
 @EventBusSubscriber
 public class RegistryHandler {
     @SubscribeEvent
-    public static void onItemRegister(RegistryEvent.Register<Item> event){
+    public static void onItemRegister(RegistryEvent.@NotNull Register<Item> event){
         event.getRegistry().registerAll(Items.ITEMS.toArray(new Item[0]));
     }
 
     @SubscribeEvent
-    public static void onBlockRegister(RegistryEvent.Register<Block> event){
+    public static void onBlockRegister(RegistryEvent.@NotNull Register<Block> event){
         event.getRegistry().registerAll(Blocks.BLOCKS.toArray(new Block[0]));
     }
     @SubscribeEvent

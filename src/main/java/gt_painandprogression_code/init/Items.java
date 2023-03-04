@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Items {
-    public static final List<Item> ITEMS = new ArrayList<Item>();
-    public static final Item Ancient_Suspicious_Relic = new ItemBase("ancient_suspicious_relic");
+    public static final List<Item> ITEMS = new ArrayList<>();
+
+    public static final Item ANCIENT_SUSPICIOUS_RELIC = new ItemBase("ancient_suspicious_relic");
 }
