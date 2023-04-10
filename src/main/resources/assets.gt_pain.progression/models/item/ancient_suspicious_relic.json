@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures":
+  {
+    "layer0": "src/main/resources/assets/gt_pain/progression/models/item/ancient_suspicious_relic.json"
+  }
+}

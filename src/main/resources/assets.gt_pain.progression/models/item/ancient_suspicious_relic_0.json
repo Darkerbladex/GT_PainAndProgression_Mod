@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gt_pain.progression:items/ancient_suspicious_relic"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 0
+      },
+      "model": "gt_pain.progression:item/ancient_suspicious_relic_custom"
+    }
+  ]
+}
